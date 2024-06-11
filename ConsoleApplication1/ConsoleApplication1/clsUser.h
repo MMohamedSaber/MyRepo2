@@ -18,7 +18,7 @@ private:
     string _UserName;
     string _Password;
     int _Permissions;
-
+    //--------------
     bool _MarkedForDelete = false;
 
     static clsUser _ConvertLinetoUserObject(string Line, string Seperator = "#//#")
